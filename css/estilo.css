@@ -1,0 +1,8 @@
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../img/imagen1Op30.jpeg) no-repeat;
+}
