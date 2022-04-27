@@ -3,6 +3,157 @@ html, body, #home {
     overflow-x: hidden;
 }
 
+#skills {
+    height: 100%;
+}
+
+#QuemSou {
+    height: 100%;
+}
+
 body {
-    background: url(../img/imagen1Op30.jpeg) no-repeat;
+    background: url(../img/capa.png),
+                url(../img/ruido.png),
+                linear-gradient(50deg, #04BFBF, #C004D9);
+                
+                            
+    background-attachment: fixed;
+    font-family: helvetica,Arial,sans-serif;
+                               
+}
+
+/* Barra de navegação 
+------------------------*/
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #04BFBF;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+/* Capa 
+--------------*/
+.capa {
+    text-align: center;
+
+}
+
+.btn-custom {
+    margin: 10px 15px;
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+    background: #01B5C4;
+}
+
+.btn-roxo:hover {
+    background: #42F1F9;
+    color: white;
+}
+
+.btn-branco {
+   border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background-color: white;
+    color: #40BB04;
+}
+
+/* Quem Sou 
+---------------------*/
+.img-perfil {
+    border-radius: 15px;
+    padding: 5px 0 0 5px;
+}
+
+/* Skills  
+----------------*/
+
+
+/*Projetos 
+-------------------*/
+#projetos {
+    background: white;
+}
+
+
+
+/*tipografia
+---------------*/
+h1 {
+    font-weight: 900;
+    letter-spacing: -.05em;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+.p-perfil {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.texto-perfil {
+    color: #AE01BF;
+}
+
+.nome {
+    color:#C004D9;
+}
+
+/*Estruturas Conteúdos
+----------------------------*/
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#QuemSou {
+    background: white;
+}
+
+
+
+@media (min-width: 280px) and (max-width: 360.98px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .btn-custom {
+        margin: 10px 0px;
+    }
+
+    .container-nav {
+        margin-right: 1em;
+        margin-left: 0.2em;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 540.98px) {
+
+    .container-nav {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
 }
