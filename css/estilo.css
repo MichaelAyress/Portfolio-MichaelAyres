@@ -7,7 +7,7 @@ html, body, #home {
 
 
 body {
-    background: url(../img/capa.png),
+    background: url(../img/capa.png) no-repeat,
                 url(../img/ruido.png),
                 linear-gradient(50deg, #04BFBF, #C004D9);
                 
