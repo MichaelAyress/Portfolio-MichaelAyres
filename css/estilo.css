@@ -3,13 +3,8 @@ html, body, #home {
     overflow-x: hidden;
 }
 
-#skills {
-    height: 100%;
-}
 
-#QuemSou {
-    height: 100%;
-}
+
 
 body {
     background: url(../img/capa.png),
@@ -96,6 +91,55 @@ nav.navbar-transparente {
 
 
 
+.bloco-projeto1 {
+    width: 15%;
+    height: 250px;
+    
+
+}
+
+.estilo-bloco {
+    background:  linear-gradient(50deg, #04BFBF, #C004D9);;
+    border-radius:10px;
+    box-shadow:  5px 5px 20px  rgba(0, 0, 0, 0.534);
+}
+
+
+.meus-projetos {  
+    width: 70%;
+    height: 250px;
+}
+
+.meus-projetos h2 {
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.meus-projetos h3 {
+    color: rgba(255, 255, 255, 0.726);
+    text-align: left;
+    font-size: 1.1em;
+    
+    
+}
+
+
+/*Contato 
+-----------------*/
+
+/* Rodapé 
+---------------------*/
+footer {
+    background: white;
+    padding: 20px 0 1px 0px;
+    
+}
+
 /*tipografia
 ---------------*/
 h1 {
@@ -105,6 +149,16 @@ h1 {
     color: white;
 
 }
+
+#projetos h1 {
+    font-size: 4em;
+    font-weight: 900;
+    letter-spacing: -.05em;
+    margin-bottom: 50px;
+    color:#03588C;
+}
+
+
 
 .p-perfil {
     color: #000;
@@ -119,6 +173,9 @@ h1 {
 .nome {
     color:#C004D9;
 }
+
+
+
 
 /*Estruturas Conteúdos
 ----------------------------*/
